@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid white;
+}
+
+#nav>a {
+    color: white;
+}
+
+#formPage {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(142, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formPage>form {
+    height: 350px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#formPage>form>input {
+    height: 30px;
+    width: 230px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#formPage>form>button {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#userPage {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px white;
+
+}
+
+#userPage>table {
+    border: 1px solid rgb(113, 111, 111);
+    margin: 10px;
+}
+
+#userPage>table>tr>td {
+    color: white;
+}
